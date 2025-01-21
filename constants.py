@@ -85,12 +85,12 @@ class Constants:
     # interface
     if nvidia_gpu is None:
         # load TensorRT interface
-        model_file_path = "yolov8_model/yolov8.engine"
+        model_file_path = "yolov8_model/yolov11n.engine"
         half = False
         imgsz = 640
     elif nvidia_gpu:
         # load pytorch interface
-        model_file_path = "yolov8_model/yolov8.pt"
+        model_file_path = "yolov8_model/yolov11n.pt"
         half = False
         imgsz = (384,640)
     else:

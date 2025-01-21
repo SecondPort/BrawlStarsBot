@@ -32,7 +32,7 @@ while(True):
     # # debug the loop rate
     fps=(1 / (time() - loop_time))
     cv.putText(screenshot,f"FPS:{int(fps)}",(20,h-20),cv.FONT_HERSHEY_SIMPLEX, 1, (0,0,255), 2)
-    cv.imshow("YOLOv8", screenshot)
+    cv.imshow("YOLOv11n", screenshot)
     loop_time = time()
 
     # press 'q' with the output window focused to exit.
